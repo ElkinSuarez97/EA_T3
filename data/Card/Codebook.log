@@ -1,0 +1,161 @@
+------------------------------------------------------------------------------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  C:\Users\torre\OneDrive - Universidad de los Andes\Econ. Av. - COMP\Bases de datos\Bartik IV\Card (2009)\Codebook.log
+  log type:  text
+ opened on:  27 Aug 2022, 13:23:43
+
+. 
+. display "Diccionario para Card (2009)"
+Diccionario para Card (2009)
+
+. 
+. describe                                                                        
+
+Contains data from input_card.dta
+ Observations:           124                  
+    Variables:           130                  9 Apr 2019 12:51
+------------------------------------------------------------------------------------------------------------------------------------------------
+Variable      Storage   Display    Value
+    name         type    format    label      Variable label
+------------------------------------------------------------------------------------------------------------------------------------------------
+rmsa            double  %12.0g                City identifier
+resgap2         float   %9.0g                 Res. Wage gap for highschool workers
+resgap4         float   %9.0g                 Res. Wage gap for college workers
+hsiv            float   %9.0g                 Bartik instrument for Highschool
+colliv          float   %9.0g                 Bartik instrument for college
+relshs          float   %9.0g                 Log rel supply imm/native
+relscoll        float   %9.0g                 Log rel supply imm/native
+logsize80       float   %9.0g                 Log City Size 1980
+logsize90       float   %9.0g                 Log City Size 1990
+coll80          double  %12.0g                College share 1980
+coll90          double  %12.0g                College share 1990
+count90         float   %9.0g                 1990 count of adult pop in city
+nres80          float   %9.0g                 Wage res native 1980
+ires80          float   %9.0g                 Wage res imm 1980
+mfg90           float   %9.0g                 Manufacturing share 1989
+mfg80           float   %9.0g                 Manufacturing share 1980
+shric1          float   %9.0g                 Share of immigrants incoming from country 1
+shric2          float   %9.0g                 Share of immigrants incoming from country 2
+shric3          float   %9.0g                 Share of immigrants incoming from country 3
+shric4          float   %9.0g                 Share of immigrants incoming from country 4
+shric5          float   %9.0g                 Share of immigrants incoming from country 5
+shric6          float   %9.0g                 Share of immigrants incoming from country 6
+shric7          float   %9.0g                 Share of immigrants incoming from country 7
+shric8          float   %9.0g                 Share of immigrants incoming from country 8
+shric9          float   %9.0g                 Share of immigrants incoming from country 9
+shric10         float   %9.0g                 Share of immigrants incoming from country 10
+shric11         float   %9.0g                 Share of immigrants incoming from country 11
+shric12         float   %9.0g                 Share of immigrants incoming from country 12
+shric13         float   %9.0g                 Share of immigrants incoming from country 13
+shric14         float   %9.0g                 Share of immigrants incoming from country 14
+shric15         float   %9.0g                 Share of immigrants incoming from country 15
+shric16         float   %9.0g                 Share of immigrants incoming from country 16
+shric17         float   %9.0g                 Share of immigrants incoming from country 17
+shric18         float   %9.0g                 Share of immigrants incoming from country 18
+shric19         float   %9.0g                 Share of immigrants incoming from country 19
+shric20         float   %9.0g                 Share of immigrants incoming from country 20
+shric21         float   %9.0g                 Share of immigrants incoming from country 21
+shric22         float   %9.0g                 Share of immigrants incoming from country 22
+shric23         float   %9.0g                 Share of immigrants incoming from country 23
+shric24         float   %9.0g                 Share of immigrants incoming from country 24
+shric25         float   %9.0g                 Share of immigrants incoming from country 25
+shric26         float   %9.0g                 Share of immigrants incoming from country 26
+shric27         float   %9.0g                 Share of immigrants incoming from country 27
+shric28         float   %9.0g                 Share of immigrants incoming from country 28
+shric29         float   %9.0g                 Share of immigrants incoming from country 29
+shric30         float   %9.0g                 Share of immigrants incoming from country 30
+shric31         float   %9.0g                 Share of immigrants incoming from country 31
+shric32         float   %9.0g                 Share of immigrants incoming from country 32
+shric33         float   %9.0g                 Share of immigrants incoming from country 33
+shric34         float   %9.0g                 Share of immigrants incoming from country 34
+shric35         float   %9.0g                 Share of immigrants incoming from country 35
+shric36         float   %9.0g                 Share of immigrants incoming from country 36
+shric37         float   %9.0g                 Share of immigrants incoming from country 37
+shric38         float   %9.0g                 Share of immigrants incoming from country 38
+hs_imm_ic1      float   %9.0g                 # of highschool inm. workers from country 1 that came to the US in 1980-2000
+coll_imm_ic1    float   %9.0g                 # of college inm. workers from country 1 that came to the US in 1980-2000
+hs_imm_ic2      float   %9.0g                 # of highschool inm. workers from country 2 that came to the US in 1980-2000
+coll_imm_ic2    float   %9.0g                 # of college inm. workers from country 2 that came to the US in 1980-2000
+hs_imm_ic3      float   %9.0g                 # of highschool inm. workers from country 3 that came to the US in 1980-2000
+coll_imm_ic3    float   %9.0g                 # of college inm. workers from country 3 that came to the US in 1980-2000
+hs_imm_ic4      float   %9.0g                 # of highschool inm. workers from country 4 that came to the US in 1980-2000
+coll_imm_ic4    float   %9.0g                 # of college inm. workers from country 4 that came to the US in 1980-2000
+hs_imm_ic5      float   %9.0g                 # of highschool inm. workers from country 5 that came to the US in 1980-2000
+coll_imm_ic5    float   %9.0g                 # of college inm. workers from country 5 that came to the US in 1980-2000
+hs_imm_ic6      float   %9.0g                 # of highschool inm. workers from country 6 that came to the US in 1980-2000
+coll_imm_ic6    float   %9.0g                 # of college inm. workers from country 6 that came to the US in 1980-2000
+hs_imm_ic7      float   %9.0g                 # of highschool inm. workers from country 7 that came to the US in 1980-2000
+coll_imm_ic7    float   %9.0g                 # of college inm. workers from country 7 that came to the US in 1980-2000
+hs_imm_ic8      float   %9.0g                 # of highschool inm. workers from country 8 that came to the US in 1980-2000
+coll_imm_ic8    float   %9.0g                 # of college inm. workers from country 8 that came to the US in 1980-2000
+hs_imm_ic9      float   %9.0g                 # of highschool inm. workers from country 9 that came to the US in 1980-2000
+coll_imm_ic9    float   %9.0g                 # of college inm. workers from country 9 that came to the US in 1980-2000
+hs_imm_ic10     float   %9.0g                 # of highschool inm. workers from country 10 that came to the US in 1980-2000
+coll_imm_ic10   float   %9.0g                 # of college inm. workers from country 10 that came to the US in 1980-2000
+hs_imm_ic11     float   %9.0g                 # of highschool inm. workers from country 11 that came to the US in 1980-2000
+coll_imm_ic11   float   %9.0g                 # of college inm. workers from country 11 that came to the US in 1980-2000
+hs_imm_ic12     float   %9.0g                 # of highschool inm. workers from country 12 that came to the US in 1980-2000
+coll_imm_ic12   float   %9.0g                 # of college inm. workers from country 12 that came to the US in 1980-2000
+hs_imm_ic13     float   %9.0g                 # of highschool inm. workers from country 13 that came to the US in 1980-2000
+coll_imm_ic13   float   %9.0g                 # of college inm. workers from country 13 that came to the US in 1980-2000
+hs_imm_ic14     float   %9.0g                 # of highschool inm. workers from country 14 that came to the US in 1980-2000
+coll_imm_ic14   float   %9.0g                 # of college inm. workers from country 14 that came to the US in 1980-2000
+hs_imm_ic15     float   %9.0g                 # of highschool inm. workers from country 15 that came to the US in 1980-2000
+coll_imm_ic15   float   %9.0g                 # of college inm. workers from country 15 that came to the US in 1980-2000
+hs_imm_ic16     float   %9.0g                 # of highschool inm. workers from country 16 that came to the US in 1980-2000
+coll_imm_ic16   float   %9.0g                 # of college inm. workers from country 16 that came to the US in 1980-2000
+hs_imm_ic17     float   %9.0g                 # of highschool inm. workers from country 17 that came to the US in 1980-2000
+coll_imm_ic17   float   %9.0g                 # of college inm. workers from country 17 that came to the US in 1980-2000
+hs_imm_ic18     float   %9.0g                 # of highschool inm. workers from country 18 that came to the US in 1980-2000
+coll_imm_ic18   float   %9.0g                 # of college inm. workers from country 18 that came to the US in 1980-2000
+hs_imm_ic19     float   %9.0g                 # of highschool inm. workers from country 19 that came to the US in 1980-2000
+coll_imm_ic19   float   %9.0g                 # of college inm. workers from country 19 that came to the US in 1980-2000
+hs_imm_ic20     float   %9.0g                 # of highschool inm. workers from country 20 that came to the US in 1980-2000
+coll_imm_ic20   float   %9.0g                 # of college inm. workers from country 20 that came to the US in 1980-2000
+hs_imm_ic21     float   %9.0g                 # of highschool inm. workers from country 21 that came to the US in 1980-2000
+coll_imm_ic21   float   %9.0g                 # of college inm. workers from country 21 that came to the US in 1980-2000
+hs_imm_ic22     float   %9.0g                 # of highschool inm. workers from country 22 that came to the US in 1980-2000
+coll_imm_ic22   float   %9.0g                 # of college inm. workers from country 22 that came to the US in 1980-2000
+hs_imm_ic23     float   %9.0g                 # of highschool inm. workers from country 23 that came to the US in 1980-2000
+coll_imm_ic23   float   %9.0g                 # of college inm. workers from country 23 that came to the US in 1980-2000
+hs_imm_ic24     float   %9.0g                 # of highschool inm. workers from country 24 that came to the US in 1980-2000
+coll_imm_ic24   float   %9.0g                 # of college inm. workers from country 24 that came to the US in 1980-2000
+hs_imm_ic25     float   %9.0g                 # of highschool inm. workers from country 25 that came to the US in 1980-2000
+coll_imm_ic25   float   %9.0g                 # of college inm. workers from country 25 that came to the US in 1980-2000
+hs_imm_ic26     float   %9.0g                 # of highschool inm. workers from country 26 that came to the US in 1980-2000
+coll_imm_ic26   float   %9.0g                 # of college inm. workers from country 26 that came to the US in 1980-2000
+hs_imm_ic27     float   %9.0g                 # of highschool inm. workers from country 27 that came to the US in 1980-2000
+coll_imm_ic27   float   %9.0g                 # of college inm. workers from country 27 that came to the US in 1980-2000
+hs_imm_ic28     float   %9.0g                 # of highschool inm. workers from country 28 that came to the US in 1980-2000
+coll_imm_ic28   float   %9.0g                 # of college inm. workers from country 28 that came to the US in 1980-2000
+hs_imm_ic29     float   %9.0g                 # of highschool inm. workers from country 29 that came to the US in 1980-2000
+coll_imm_ic29   float   %9.0g                 # of college inm. workers from country 29 that came to the US in 1980-2000
+hs_imm_ic30     float   %9.0g                 # of highschool inm. workers from country 30 that came to the US in 1980-2000
+coll_imm_ic30   float   %9.0g                 # of college inm. workers from country 30 that came to the US in 1980-2000
+hs_imm_ic31     float   %9.0g                 # of highschool inm. workers from country 31 that came to the US in 1980-2000
+coll_imm_ic31   float   %9.0g                 # of college inm. workers from country 31 that came to the US in 1980-2000
+hs_imm_ic32     float   %9.0g                 # of highschool inm. workers from country 32 that came to the US in 1980-2000
+coll_imm_ic32   float   %9.0g                 # of college inm. workers from country 32 that came to the US in 1980-2000
+hs_imm_ic33     float   %9.0g                 # of highschool inm. workers from country 33 that came to the US in 1980-2000
+coll_imm_ic33   float   %9.0g                 # of college inm. workers from country 33 that came to the US in 1980-2000
+hs_imm_ic34     float   %9.0g                 # of highschool inm. workers from country 34 that came to the US in 1980-2000
+coll_imm_ic34   float   %9.0g                 # of college inm. workers from country 34 that came to the US in 1980-2000
+hs_imm_ic35     float   %9.0g                 # of highschool inm. workers from country 35 that came to the US in 1980-2000
+coll_imm_ic35   float   %9.0g                 # of college inm. workers from country 35 that came to the US in 1980-2000
+hs_imm_ic36     float   %9.0g                 # of highschool inm. workers from country 36 that came to the US in 1980-2000
+coll_imm_ic36   float   %9.0g                 # of college inm. workers from country 36 that came to the US in 1980-2000
+hs_imm_ic37     float   %9.0g                 # of highschool inm. workers from country 37 that came to the US in 1980-2000
+coll_imm_ic37   float   %9.0g                 # of college inm. workers from country 37 that came to the US in 1980-2000
+hs_imm_ic38     float   %9.0g                 # of highschool inm. workers from country 38 that came to the US in 1980-2000
+coll_imm_ic38   float   %9.0g                 # of college inm. workers from country 38 that came to the US in 1980-2000
+------------------------------------------------------------------------------------------------------------------------------------------------
+Sorted by: 
+     Note: Dataset has changed since last saved.
+
+. 
+. log close 
+      name:  <unnamed>
+       log:  C:\Users\torre\OneDrive - Universidad de los Andes\Econ. Av. - COMP\Bases de datos\Bartik IV\Card (2009)\Codebook.log
+  log type:  text
+ closed on:  27 Aug 2022, 13:23:43
+------------------------------------------------------------------------------------------------------------------------------------------------
