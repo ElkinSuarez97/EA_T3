@@ -32,7 +32,8 @@ p_load(
   AER,
   ggrepel,
   Synth,
-  did
+  did,
+  ivreg,
 
 )
 
