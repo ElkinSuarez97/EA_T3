@@ -48,10 +48,9 @@ twfe_sin <- feols(
 )
 
 twfe_con <- feols(
-  eq_index_mh_all ~ D + female + age + year_in_school +
+  eq_index_mh_all ~ D + female + age + I(age^2) + year_in_school +
     white + black + hispanic + asian + indian + other_race +
-    international + offCampusLiving + gpa + debt +
-    in_frat_sor + work + overweight | uni_id + semester,
+    international | uni_id + semester,
   data    = facebook,
   cluster = ~uni_id
 )
@@ -59,32 +58,25 @@ twfe_con <- feols(
 summary(twfe_sin)
 summary(twfe_con)
 
-# Tabla para LaTeX
-
 etable(
   twfe_sin, twfe_con,
   headers = c("Sin controles", "Con controles"),
   digits  = 3,
   tex     = TRUE,
   dict    = c(
-    eq_index_mh_all = "Índice mala salud mental",
-    D               = "Facebook disponible",
-    female          = "Mujer",
-    age             = "Edad",
-    year_in_school  = "Año en la universidad",
-    white           = "Blanco",
-    black           = "Negro",
-    hispanic        = "Hispano",
-    asian           = "Asiático",
-    indian          = "Nativo americano",
-    other_race      = "Otra raza",
-    international   = "Internacional",
-    offCampusLiving = "Vive fuera del campus",
-    gpa             = "Promedio académico",
-    debt            = "Deuda tarjeta crédito",
-    in_frat_sor     = "Fraternidad/sororidad",
-    work            = "Trabaja",
-    overweight      = "Sobrepeso"
+    eq_index_mh_all  = "Índice mala salud mental",
+    D                = "Facebook disponible",
+    female           = "Mujer",
+    age              = "Edad",
+    "I(age^2)"       = "Edad$^2$",
+    year_in_school   = "Año en la universidad",
+    white            = "Blanco",
+    black            = "Negro",
+    hispanic         = "Hispano",
+    asian            = "Asiático",
+    indian           = "Nativo americano",
+    other_race       = "Otra raza",
+    international    = "Internacional"
   )
 )
 

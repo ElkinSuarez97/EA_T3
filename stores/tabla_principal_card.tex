@@ -1,0 +1,28 @@
+\begin{table}[H]
+\centering
+\caption{Estimaciones MCO y MC2E: inmigración y brecha salarial}
+\begin{tabular}{lcccc}
+\hline\hline
+ & \multicolumn{2}{c}{Secundaria} & \multicolumn{2}{c}{Universidad} \\
+\cline{2-3} \cline{4-5}
+ & MCO & MC2E & MCO & MC2E \\
+\hline
+Oferta relativa inmigrantes/nativos (log) & -0.030*** & -0.037*** & -0.058*** & -0.078*** \\
+ & (0.006) & (0.007) & (0.008) & (0.013) \\
+\hline
+Observaciones & 124 & 124 & 124 & 124 \\
+$R^{2}$ & 0.210 & 0.201 & 0.386 & 0.354 \\
+$R^{2}$ ajustado & 0.148 & 0.138 & 0.337 & 0.303 \\
+Controles & Sí & Sí & Sí & Sí \\
+Pesos & Población 1990 & Población 1990 & Población 1990 & Población 1990 \\
+F primera etapa & -- & 46.62 & -- & 33.22 \\
+$p$-valor F & -- & $<0.001$ & -- & $<0.001$ \\
+\hline\hline
+\end{tabular}
+
+\vspace{0.3em}
+
+\parbox{0.95\textwidth}{\footnotesize
+\textit{Nota:} La variable dependiente es la brecha salarial residual en logaritmos entre inmigrantes y nativos. Para secundaria se usa \texttt{resgap2} y para universidad \texttt{resgap4}. En MC2E, \texttt{relshs} se instrumenta con \texttt{hsiv} y \texttt{relscoll} con \texttt{colliv}. Todas las especificaciones incluyen controles por residuos salariales de nativos e inmigrantes en 1980, logaritmo de población en 1980 y 1990, proporción universitaria en 1980 y 1990, y participación manufacturera en 1980 y 1990. Errores estándar robustos HC1 entre paréntesis. $^{*}p<0.1$; $^{**}p<0.05$; $^{***}p<0.01$.
+}
+\end{table}
