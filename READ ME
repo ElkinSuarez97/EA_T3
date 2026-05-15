@@ -1,0 +1,33 @@
+# Taller 3 - Econometría Avanzada
+
+Repositorio del Taller 3 del curso **Econometría Avanzada, 2026-1**.
+
+Autores:
+
+- Elkin Mauricio Suárez Chantre
+- Sara Valentina Torres Triana
+
+## Descripción general
+
+Este repositorio contiene los códigos, bases de datos y salidas utilizadas para el desarrollo del Taller 3 de Econometría Avanzada.
+
+El taller trabaja tres ejercicios principales:
+
+1. **Facebook y salud mental:** estudio de eventos con adopción escalonada, estimadores TWFE, Callaway & Sant’Anna y Sun & Abraham.
+2. **Card (2009):** estimación por MCO y MC2E usando instrumentos tipo Bartik para analizar inmigración y brechas salariales.
+3. **Revolución Cubana:** aplicación de la metodología de control sintético para estudiar la mortalidad infantil en Cuba.
+
+## Estructura del repositorio
+
+```text
+EA_T3/
+├── data/               # Bases de datos utilizadas en el taller
+│   └── Card/           # Base y archivos auxiliares del ejercicio de Card
+├── scripts/            # Scripts en R
+│   ├── 00_config.R     # Configuración general del proyecto
+│   ├── 01_Primer_punto.R
+│   ├── 02_Segundo_punto.R
+│   └── 03_Tercer_punto.R
+├── stores/             # Tablas, gráficas y resultados generados
+├── EA_T3.Rproj         # Proyecto de RStudio
+└── README.md
